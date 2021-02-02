@@ -1,10 +1,16 @@
 # Beginners-NLP
 딥 러닝을 이용한 자연어 처리 입문 - 위키독스
 
+
+
+
 **#딕셔너리의 value값을 기준으로 내림차순 정렬법**  
 - x[1]은 value값을 의미, key와 reverse는 sorted 메서드의 설정값  
 vocab_sorted = sorted(vocab.items(), key = lambda x:x[1], reverse = True)  
 print(vocab_sorted)  
+
+
+
 
 ### pandas_profiling
 데이터베이스의 정보 출력
