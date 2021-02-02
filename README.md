@@ -3,14 +3,12 @@
 
 
 
-
+</br></br>
 **#딕셔너리의 value값을 기준으로 내림차순 정렬법**  
 - x[1]은 value값을 의미, key와 reverse는 sorted 메서드의 설정값  
 vocab_sorted = sorted(vocab.items(), key = lambda x:x[1], reverse = True)  
 print(vocab_sorted)  
-
-
-
+</br></br>
 
 ### pandas_profiling
 데이터베이스의 정보 출력
@@ -24,7 +22,7 @@ print(vocab_sorted)
 5. Sample
 6. Last rows
 7. Duplicate rows
-
+</br></br>
 
 ### 토큰화 기법 비교(아포스트로피(') 분리)
 1. NLTK word_tokenize
@@ -45,7 +43,7 @@ don't나 jone's의 아포스트로피(')는 보존</br>
 
 문장 토큰화 오픈 소스 NLTK, OpenNLP, 스탠포드 CoreNLP, splitta, LingPipe</br>
 https://www.grammarly.com/blog/engineering/how-to-split-sentences/</br>
-
+</br></br>
 
 ### NLTK와 KoNLPy에서 품사 태깅 비교
 1. NLTK pos_tag 영어 문장 토큰화 및 품사 태깅
@@ -62,14 +60,14 @@ https://www.grammarly.com/blog/engineering/how-to-split-sentences/</br>
 (1) morphs : 형태소 추출</br>
 (2) pos : 품사 태깅(Part-of-speech tagging)</br>
 (3) nouns : 명사 추출</br>
-
+</br></br>
 
 ### 표제어 추출 NLTK WordNetLemmatizer
 표제어 추출은 어간 추출과는 달리 단어의 형태가 적절히 보존됨</br>
 적절치 못한 단어를 출력하는데, 품사 정보를 알아야만 정확한 결과를 얻을 수 있음</br>
 n.lemmatize('dies', 'v')</br>
 'die'</br>
-
+</br></br>
 
 ### 어간 추출 Porter Algorithm vs. Lancaster Algoritm
 s = PorterStemmer()</br>
@@ -97,7 +95,7 @@ $	앞의 문자로 문자열이 끝남
 [ ]	대괄호 안의 문자들 중 한 개의 문자와 매치. [amk]라고 한다면 a 또는 m 또는 k 중 하나라도 존재하면 매치를 의미. [a-z]와 같이 범위를 지정할 수도 있음. [a-zA-Z]는 알파벳 전체를 의미하는 범위이며, 문자열에 알파벳이 존재하면 매치를 의미.  
 [^문자]	해당 문자를 제외한 문자를 매치  
 l	AlB와 같이 쓰이며 A 또는 B의 의미  
-
+</br></br>
 
 정규 표현식 문법에는 역 슬래쉬(\)를 이용하여 자주 쓰이는 문자 규칙들이 있습니다.  
 **문자 규칙	설명**  
@@ -108,7 +106,7 @@ l	AlB와 같이 쓰이며 A 또는 B의 의미
 \S	공백을 제외한 문자를 의미. [^ \t\n\r\f\v]와 의미가 동일  
 \w	문자 또는 숫자를 의미. [a-zA-Z0-9]와 의미가 동일  
 \W	문자 또는 숫자가 아닌 문자를 의미. [^a-zA-Z0-9]와 의미가 동일  
-
+</br></br>
 
 ### 정규표현식 모듈 함수  
 정규표현식 모듈에서 지원하는 함수는 이와 같습니다.  
