@@ -46,5 +46,6 @@ https://www.grammarly.com/blog/engineering/how-to-split-sentences/</br>
 - Hannanum(한나눔)
 - Kkma(꼬꼬마)
 형태소(morpheme) 단위로 토큰화</br>
-** 메소드 기능**
-1) morphs : 형태소 추출
+
+**메소드 기능**
+(1) morphs : 형태소 추출
