@@ -121,7 +121,7 @@ re.finditer()	문자열에서 정규 표현식과 매치되는 모든 경우의 
 re.sub()	문자열에서 정규 표현식과 일치하는 부분에 대해서 다른 문자열로 대체  
 </br></br>
 ### RNN to_categorical로 원-핫 인코딩된 X(train data)의 shape  
-\# (a, b, c)  
+\# (a, b, c) # 3D 텐서 
 \# a = 샘플의 수 = No. of samples = batch_size  
 \# b = 입력 시퀀스의 길이 = input_length = timeseries = timesteps  
 \# c = 각 벡터의 차원 = input dim = Dimensionality of word representation  
