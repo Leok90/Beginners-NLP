@@ -125,3 +125,11 @@ re.sub()	문자열에서 정규 표현식과 일치하는 부분에 대해서 �
 \# a = 샘플의 수 = No. of samples = batch_size  
 \# b = 입력 시퀀스의 길이 = input_length = timeseries = timesteps  
 \# c = 각 벡터의 차원 = input dim = Dimensionality of word representation  
+</br></br>
+return_sequences=True를 선택하면 메모리 셀이 모든 시점(time step)에 대해서 은닉 상태값을 출력</br>
+return_sequences=False로 선택할 경우에는 메모리 셀은 마지막 은닉 상태값만을 출력
+```python
+model = Sequential()
+model.add(SimpleRNN(3, batch_input_shape=(8,2,10), return_sequences=True))
+model.summary()
+```
