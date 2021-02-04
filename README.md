@@ -119,3 +119,9 @@ re.split()	정규 표현식을 기준으로 문자열을 분리하여 리스트�
 re.findall()	문자열에서 정규 표현식과 매치되는 모든 경우의 문자열을 찾아서 리스트로 리턴. 만약, 매치되는 문자열이 없다면 빈 리스트가 리턴  
 re.finditer()	문자열에서 정규 표현식과 매치되는 모든 경우의 문자열에 대한 이터레이터 객체를 리턴  
 re.sub()	문자열에서 정규 표현식과 일치하는 부분에 대해서 다른 문자열로 대체  
+
+### RNN to_categorical로 원-핫 인코딩된 X(train data)의 shape  
+\# (a, b, c)  
+\# a = 샘플의 수 = No. of samples = batch_size  
+\# b = 입력 시퀀스의 길이 = input_length = timeseries = timesteps  
+\# c = 각 벡터의 차원 = input dim = Dimensionality of word representation  
