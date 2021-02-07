@@ -1,6 +1,9 @@
 # Beginners-NLP
-딥 러닝을 이용한 자연어 처리 입문 - 위키독스
+딥 러닝을 이용한 자연어 처리 입문(위키독스) 내용을 공부하고 정리한 글입니다.</br></br>
 
+출처를 밝힙니다.
+Won Joon Yoo, Introduction to Deep Learning for Natural Language Processing, Wikidocs
+https://wikidocs.net/book/2155
 
 
 </br></br>
